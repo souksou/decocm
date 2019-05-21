@@ -25,6 +25,7 @@
 		5FBDF6EB2292EDD10041BD36 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBDF6EA2292EDD10041BD36 /* BaseViewController.swift */; };
 		5FBDF6ED2292EF6F0041BD36 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FBDF6EC2292EF6F0041BD36 /* Login.storyboard */; };
 		5FBDF6EF2292F2920041BD36 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBDF6EE2292F2920041BD36 /* HomeViewController.swift */; };
+		5FBDF6F52293E4FA0041BD36 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBDF6F32293E4EC0041BD36 /* Converter.swift */; };
 		658BE419CA9B4CE2458099CC /* Pods_decoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885AB7794A707E0A8EB08B93 /* Pods_decoTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,7 @@
 		5FBDF6EA2292EDD10041BD36 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		5FBDF6EC2292EF6F0041BD36 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		5FBDF6EE2292F2920041BD36 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5FBDF6F32293E4EC0041BD36 /* Converter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 		76002EED492B783485318D7F /* Pods-deco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-deco.release.xcconfig"; path = "Pods/Target Support Files/Pods-deco/Pods-deco.release.xcconfig"; sourceTree = "<group>"; };
 		7718AA8F5BA8FAEE1E22BB63 /* Pods_decoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_decoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87C47AF28303BEBD083FDA21 /* Pods_deco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_deco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,6 +143,7 @@
 				5FBDF6E62292E9710041BD36 /* Main.storyboard */,
 				5FBDF6AD2291FB5D0041BD36 /* LaunchScreen.storyboard */,
 				5FBDF6B02291FB5D0041BD36 /* Info.plist */,
+				5FBDF6F32293E4EC0041BD36 /* Converter.swift */,
 			);
 			path = deco;
 			sourceTree = "<group>";
@@ -484,6 +487,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FBDF6E52292E92D0041BD36 /* StoryboardInitializable.swift in Sources */,
+				5FBDF6F52293E4FA0041BD36 /* Converter.swift in Sources */,
 				5FBDF6E12292E6AD0041BD36 /* LoginCoordinator.swift in Sources */,
 				5FBDF6DA2292E4020041BD36 /* AppCoordinator.swift in Sources */,
 				5FBDF6A72291FB5A0041BD36 /* ViewController.swift in Sources */,
